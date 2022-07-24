@@ -30,8 +30,8 @@ For this first Vueling University exam, we were asked to do:
 `ngx-translate/http-loader: 7.0.0`  
 `ts-generic-collections-linq: 1.0.7`
 
-## Project Scaffolding ![image](https://user-images.githubusercontent.com/91494846/180664115-0af0ae10-10fe-4493-be23-182ceb5e54bb.png)
-
+## Project Scaffolding 
+![image](https://user-images.githubusercontent.com/91494846/180664115-0af0ae10-10fe-4493-be23-182ceb5e54bb.png)
 ### Interfaces
 - Player Interface
 ### Components
