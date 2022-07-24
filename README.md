@@ -1,22 +1,70 @@
-# Breakingbad Wiki
+# VY - First exam 
 
-Project created in order to test the free API www.breakingbadapi.com
+## Table of Contents  
+- [About The Project](#about-the-project)
+- [Project Build and Dependencies](#project-build-and-dependencies)
+- [Project Scaffolding](#project-scaffolding)
+  * [Interfaces](#interfaces)
+  * [Components](#components)
+  * [Services](#services)
+  * [Directives](#directives)
+  * [Pipes](#pipes)
+- [Error Handling](#error-handling)
+- [Design Patterns](#design-patterns)
+- [Deployment](#deployment)
 
+![DDD]
+
+## About The Project
+
+For this first Vueling University exam, we were asked to do:
+
+## Project Build and Dependencies 
+
+`Angular CLI: 14.0.4`  
+`Node: 16.15.1`  
+`NPM: 8.11.0`  
+`Bootstrap: 5.1.3`  
+`Express: 4.18.1`  
+`ngx-translate/core: 14.0.0`  
+`ngx-translate/http-loader: 7.0.0`  
+`ts-generic-collections-linq: 1.0.7`
+
+## Project Scaffolding ![image](https://user-images.githubusercontent.com/91494846/180664115-0af0ae10-10fe-4493-be23-182ceb5e54bb.png)
+
+### Interfaces
+- Player Interface
+### Components
+- Header
+- Footer
+- Player List
+- Player Detail
+### Services
+- Player Service
+- Navigation Service
+### Directives
+- Lazy Loading
+### Pipes
+- URL Format
+
+## Multiple Languages
+
+MultiLanguage feature added via ngx-translate library, an internationalization library for Angular.
+
+## Error Handling
+The error handler in this application focuses on wrong URLs typed by the user. In case of typing a wrong URL the user will be automatically redirected to an error page, customized in the error-page component.
+
+## Design Patterns
+
+- MVC Pattern  
+- Dependency Injection Pattern  
+- SOLID Pattern  
+- Lazy Pattern
+
+## Deployment
 Project deployed on:
-https://breakingbad-wiki-iuq.netlify.app
 
-------------------------------------------------------------------------------
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Author 
+**Xavier Pérez Benítez**
+### Acknowledgements
+**Jordi Ascensión Pestonit**
